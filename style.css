@@ -1,0 +1,50 @@
+nav {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    background-color: blue;
+    display: inline-block;
+    padding: 18px;
+    margin: 0 20px;
+}
+
+.left-menu {
+    background-color: red;
+    display: inline-block;
+}
+
+.left-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu ul li {
+    display: inline-block;
+    padding: 18px;
+    margin: 0 20px;
+}
+
+.right-menu {
+    float: right;
+    background-color: green;
+    display: inline-block;
+}
+
+.right-menu {
+    background-color: red;
+    display: inline-block;
+}
+
+.right-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-menu ul li {
+    display: inline-block;
+    padding: 18px;
+}
