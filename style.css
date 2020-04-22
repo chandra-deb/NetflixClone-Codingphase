@@ -1,17 +1,29 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 nav {
     background-color: black;
     color: white;
+    opacity: .8;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
-    background-color: blue;
+    background-color: red;
     display: inline-block;
     padding: 18px;
     margin: 0 20px;
 }
 
 .left-menu {
-    background-color: red;
     display: inline-block;
 }
 
@@ -27,16 +39,15 @@ nav {
     margin: 0 20px;
 }
 
-.right-menu {
-    float: right;
-    background-color: green;
-    display: inline-block;
+.left-menu ul li a {
+    color: white;
 }
 
 .right-menu {
-    background-color: red;
+    float: right;
     display: inline-block;
 }
+
 
 .right-menu ul {
     list-style-type: none;
@@ -47,4 +58,98 @@ nav {
 .right-menu ul li {
     display: inline-block;
     padding: 18px;
+}
+
+.right-menu ul li a {
+    color: white;
+}
+
+.left-menu a:hover, .right-menu a:hover {
+    color: red;
+    transition: 300ms;
+}
+
+#heading {
+    background: -webkit-linear-gradient(45deg,  rgba(231, 31, 17, 7) 0%,#000000 100%), url("img/batman.jpg"); 
+    background: linear-gradient(45deg, transparent, rgb(116, 1, 1)),
+            url("img/batman.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.description-box {
+    color: white;
+    width: 70%;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-left: 6rem;
+}
+
+.description-box h4 {
+    font-size: 30px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.description-box h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: serif;
+    margin: 0;
+}
+
+.description-box h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.description-box p {
+    width: 60%;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    line-height: 1.3;
+    
+}
+
+.btn1, .btn2 {
+    display: inline-block;  
+}
+
+.btn1 a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.btn1 a:hover {
+   background-color: red;
+   transition: 500ms;
+
+}
+
+.btn2 a {
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, .8);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+.btn2 a:hover {
+    background-color: black;
+    transition: 500ms;
 }
