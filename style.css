@@ -43,6 +43,9 @@ nav a {
     color: white;
 }
 
+.left-menu ul li a.dropdown {
+    color: red;
+}
 .right-menu {
     float: right;
     display: inline-block;
@@ -70,7 +73,7 @@ nav a {
 }
 
 #heading {
-    background: -webkit-linear-gradient(45deg,  rgba(231, 31, 17, 7) 0%,#000000 100%), url("img/batman.jpg"); 
+    /* background: -webkit-linear-gradient(45deg, transparent, rgba(114, 14, 7, 0.7) 0%,#000000 100%), url("img/batman.jpg");  */
     background: linear-gradient(45deg, transparent, rgb(116, 1, 1)),
             url("img/batman.jpg");
     -webkit-background-size: cover;
@@ -153,3 +156,4 @@ nav a {
     background-color: black;
     transition: 500ms;
 }
+
